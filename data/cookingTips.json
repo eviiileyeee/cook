@@ -1,0 +1,118 @@
+{
+  "cookingTips": [
+    {
+      "id": 1,
+      "category": "knife-skills",
+      "title": "Keep Your Knives Sharp",
+      "tip": "A sharp knife is safer and more efficient than a dull one. It requires less pressure and gives you better control.",
+      "difficulty": "beginner",
+      "importance": "high"
+    },
+    {
+      "id": 2,
+      "category": "seasoning",
+      "title": "Season Throughout Cooking",
+      "tip": "Don't just season at the end. Add salt and spices at different stages to build layers of flavor.",
+      "difficulty": "beginner",
+      "importance": "high"
+    },
+    {
+      "id": 3,
+      "category": "temperature",
+      "title": "Let Meat Rest",
+      "tip": "After cooking meat, let it rest for 5-10 minutes. This allows juices to redistribute, making it more tender.",
+      "difficulty": "intermediate",
+      "importance": "medium"
+    },
+    {
+      "id": 4,
+      "category": "preparation",
+      "title": "Mise en Place",
+      "tip": "Prepare all ingredients before you start cooking. Having everything measured and chopped saves time and reduces stress.",
+      "difficulty": "beginner",
+      "importance": "high"
+    },
+    {
+      "id": 5,
+      "category": "temperature",
+      "title": "Room Temperature Ingredients",
+      "tip": "Bring ingredients like eggs, butter, and dairy to room temperature before baking for better mixing and texture.",
+      "difficulty": "intermediate",
+      "importance": "medium"
+    },
+    {
+      "id": 6,
+      "category": "technique",
+      "title": "Don't Overcrowd the Pan",
+      "tip": "When searing or sautéing, give ingredients space. Overcrowding steams food instead of browning it.",
+      "difficulty": "beginner",
+      "importance": "high"
+    },
+    {
+      "id": 7,
+      "category": "flavor",
+      "title": "Taste as You Go",
+      "tip": "Continuously taste your food while cooking. This helps you adjust seasoning and catch problems early.",
+      "difficulty": "beginner",
+      "importance": "high"
+    },
+    {
+      "id": 8,
+      "category": "technique",
+      "title": "Control Your Heat",
+      "tip": "Most home cooks use too high heat. Lower, controlled heat often produces better results.",
+      "difficulty": "intermediate",
+      "importance": "high"
+    },
+    {
+      "id": 9,
+      "category": "safety",
+      "title": "Keep It Clean",
+      "tip": "Clean as you go to maintain food safety and make cleanup easier. Wash hands frequently.",
+      "difficulty": "beginner",
+      "importance": "high"
+    },
+    {
+      "id": 10,
+      "category": "ingredient-quality",
+      "title": "Quality Ingredients Matter",
+      "tip": "Use the best ingredients you can afford. Fresh, quality ingredients make a noticeable difference in taste.",
+      "difficulty": "beginner",
+      "importance": "medium"
+    }
+  ],
+  "categories": [
+    {
+      "name": "knife-skills",
+      "description": "Tips for proper knife handling and cutting techniques"
+    },
+    {
+      "name": "seasoning",
+      "description": "How to properly season and flavor your dishes"
+    },
+    {
+      "name": "temperature",
+      "description": "Temperature control and timing tips"
+    },
+    {
+      "name": "preparation",
+      "description": "Kitchen organization and prep techniques"
+    },
+    {
+      "name": "technique",
+      "description": "Fundamental cooking techniques and methods"
+    },
+    {
+      "name": "flavor",
+      "description": "Building and balancing flavors in cooking"
+    },
+    {
+      "name": "safety",
+      "description": "Food safety and kitchen hygiene practices"
+    },
+    {
+      "name": "ingredient-quality",
+      "description": "Selecting and using quality ingredients"
+    }
+  ]
+}

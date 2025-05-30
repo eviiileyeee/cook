@@ -1,0 +1,202 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Classic Cheese Omelet",
+      "description": "A fluffy omelet filled with melted cheese",
+      "cookingTime": 10,
+      "servings": 2,
+      "difficulty": "easy",
+      "cuisine": "American",
+      "ingredients": ["eggs", "cheese", "butter", "salt", "pepper"],
+      "nutritionalInfo": {
+        "calories": 320,
+        "protein": "22g",
+        "carbs": "2g",
+        "fat": "25g"
+      },
+      "tags": ["breakfast", "quick", "vegetarian"],
+      "rating": 4.5,
+      "image": "https://example.com/omelet.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tomato Cheese Toast",
+      "description": "Crispy toast topped with fresh tomatoes and melted cheese",
+      "cookingTime": 8,
+      "servings": 1,
+      "difficulty": "easy",
+      "cuisine": "Italian",
+      "ingredients": ["bread", "tomato", "cheese", "olive oil", "basil", "salt"],
+      "nutritionalInfo": {
+        "calories": 280,
+        "protein": "12g",
+        "carbs": "28g",
+        "fat": "14g"
+      },
+      "tags": ["breakfast", "snack", "vegetarian"],
+      "rating": 4.2,
+      "image": "https://example.com/tomato-toast.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Scrambled Eggs with Tomato",
+      "description": "Creamy scrambled eggs with fresh diced tomatoes",
+      "cookingTime": 7,
+      "servings": 2,
+      "difficulty": "easy",
+      "cuisine": "American",
+      "ingredients": ["eggs", "tomato", "butter", "salt", "pepper", "herbs"],
+      "nutritionalInfo": {
+        "calories": 195,
+        "protein": "14g",
+        "carbs": "4g",
+        "fat": "14g"
+      },
+      "tags": ["breakfast", "healthy", "vegetarian"],
+      "rating": 4.3,
+      "image": "https://example.com/scrambled-eggs.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Caprese Salad",
+      "description": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil",
+      "cookingTime": 5,
+      "servings": 4,
+      "difficulty": "easy",
+      "cuisine": "Italian",
+      "ingredients": ["tomato", "mozzarella", "basil", "olive oil", "salt", "balsamic vinegar"],
+      "nutritionalInfo": {
+        "calories": 220,
+        "protein": "12g",
+        "carbs": "8g",
+        "fat": "17g"
+      },
+      "tags": ["salad", "fresh", "vegetarian", "summer"],
+      "rating": 4.7,
+      "image": "https://example.com/caprese.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cheese Quesadilla",
+      "description": "Crispy tortilla filled with melted cheese",
+      "cookingTime": 12,
+      "servings": 2,
+      "difficulty": "easy",
+      "cuisine": "Mexican",
+      "ingredients": ["tortilla", "cheese", "butter", "onion", "bell pepper"],
+      "nutritionalInfo": {
+        "calories": 380,
+        "protein": "18g",
+        "carbs": "32g",
+        "fat": "22g"
+      },
+      "tags": ["lunch", "mexican", "vegetarian"],
+      "rating": 4.4,
+      "image": "https://example.com/quesadilla.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Tomato Basil Pasta",
+      "description": "Simple pasta with fresh tomatoes and basil",
+      "cookingTime": 20,
+      "servings": 4,
+      "difficulty": "medium",
+      "cuisine": "Italian",
+      "ingredients": ["pasta", "tomato", "basil", "garlic", "olive oil", "parmesan"],
+      "nutritionalInfo": {
+        "calories": 340,
+        "protein": "12g",
+        "carbs": "58g",
+        "fat": "8g"
+      },
+      "tags": ["dinner", "italian", "vegetarian"],
+      "rating": 4.6,
+      "image": "https://example.com/pasta.jpg"
+    }
+  ],
+  "instructions": [
+    {
+      "recipeId": 1,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Crack 3-4 eggs into a bowl and whisk them well with a pinch of salt and pepper.",
+          "duration": 2,
+          "tips": "Whisking incorporates air for a fluffier omelet"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Heat butter in a non-stick pan over medium-low heat until it starts to foam.",
+          "duration": 1,
+          "tips": "Medium-low heat prevents the eggs from cooking too quickly"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Pour the whisked eggs into the pan and let them sit for 30 seconds without stirring.",
+          "duration": 1,
+          "tips": "This creates a good base for the omelet"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Using a spatula, gently push the cooked edges toward the center, tilting the pan to let uncooked egg flow underneath.",
+          "duration": 3,
+          "tips": "Work quickly but gently to maintain the omelet's structure"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "When the eggs are almost set but still slightly wet on top, add grated cheese to one half of the omelet.",
+          "duration": 1,
+          "tips": "The residual heat will melt the cheese perfectly"
+        },
+        {
+          "stepNumber": 6,
+          "instruction": "Fold the omelet in half using the spatula and slide onto a plate. Serve immediately.",
+          "duration": 1,
+          "tips": "Serve hot for the best texture and flavor"
+        }
+      ],
+      "totalTime": 10,
+      "difficulty": "easy",
+      "equipmentNeeded": ["non-stick pan", "spatula", "whisk", "bowl"]
+    },
+    {
+      "recipeId": 2,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "instruction": "Toast the bread slices until golden brown and crispy.",
+          "duration": 3,
+          "tips": "Use medium heat to avoid burning"
+        },
+        {
+          "stepNumber": 2,
+          "instruction": "Slice the tomato into 1/4 inch thick rounds and season with salt.",
+          "duration": 2,
+          "tips": "Salting draws out excess moisture"
+        },
+        {
+          "stepNumber": 3,
+          "instruction": "Brush the toast with olive oil and arrange tomato slices on top.",
+          "duration": 1,
+          "tips": "Olive oil adds flavor and helps toppings adhere"
+        },
+        {
+          "stepNumber": 4,
+          "instruction": "Top with cheese and place under broiler for 2-3 minutes until cheese melts.",
+          "duration": 3,
+          "tips": "Watch carefully to prevent burning"
+        },
+        {
+          "stepNumber": 5,
+          "instruction": "Garnish with fresh basil leaves and serve immediately.",
+          "duration": 1,
+          "tips": "Fresh basil adds the perfect finishing touch"
+        }
+      ],
+      "totalTime": 8,
+      "difficulty": "easy",
+      "equipmentNeeded": ["toaster", "knife", "cutting board", "oven"]
+    }
+  ]
+}

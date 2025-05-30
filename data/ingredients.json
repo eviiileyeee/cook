@@ -1,0 +1,221 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "eggs",
+      "category": "dairy",
+      "unit": "piece",
+      "avgPrice": 0.25,
+      "shelfLife": 28,
+      "alternatives": ["egg substitute", "applesauce"]
+    },
+    {
+      "id": 2,
+      "name": "milk",
+      "category": "dairy",
+      "unit": "ml",
+      "avgPrice": 0.001,
+      "shelfLife": 7,
+      "alternatives": ["almond milk", "soy milk", "coconut milk"]
+    },
+    {
+      "id": 3,
+      "name": "cheese",
+      "category": "dairy",
+      "unit": "g",
+      "avgPrice": 0.01,
+      "shelfLife": 14,
+      "alternatives": ["vegan cheese", "nutritional yeast"]
+    },
+    {
+      "id": 4,
+      "name": "butter",
+      "category": "dairy",
+      "unit": "g",
+      "avgPrice": 0.008,
+      "shelfLife": 30,
+      "alternatives": ["margarine", "coconut oil", "olive oil"]
+    },
+    {
+      "id": 5,
+      "name": "tomato",
+      "category": "vegetables",
+      "unit": "piece",
+      "avgPrice": 0.5,
+      "shelfLife": 7,
+      "alternatives": ["canned tomatoes", "tomato paste"]
+    },
+    {
+      "id": 6,
+      "name": "onion",
+      "category": "vegetables",
+      "unit": "piece",
+      "avgPrice": 0.3,
+      "shelfLife": 30,
+      "alternatives": ["shallots", "green onions"]
+    },
+    {
+      "id": 7,
+      "name": "garlic",
+      "category": "vegetables",
+      "unit": "clove",
+      "avgPrice": 0.1,
+      "shelfLife": 21,
+      "alternatives": ["garlic powder", "garlic paste"]
+    },
+    {
+      "id": 8,
+      "name": "bell pepper",
+      "category": "vegetables",
+      "unit": "piece",
+      "avgPrice": 1.0,
+      "shelfLife": 10,
+      "alternatives": ["any colored bell pepper"]
+    },
+    {
+      "id": 9,
+      "name": "mushrooms",
+      "category": "vegetables",
+      "unit": "g",
+      "avgPrice": 0.005,
+      "shelfLife": 7,
+      "alternatives": ["any mushroom variety"]
+    },
+    {
+      "id": 10,
+      "name": "spinach",
+      "category": "vegetables",
+      "unit": "g",
+      "avgPrice": 0.003,
+      "shelfLife": 5,
+      "alternatives": ["kale", "arugula", "lettuce"]
+    },
+    {
+      "id": 11,
+      "name": "chicken breast",
+      "category": "meat",
+      "unit": "g",
+      "avgPrice": 0.01,
+      "shelfLife": 3,
+      "alternatives": ["chicken thigh", "turkey breast"]
+    },
+    {
+      "id": 12,
+      "name": "ground beef",
+      "category": "meat",
+      "unit": "g",
+      "avgPrice": 0.008,
+      "shelfLife": 2,
+      "alternatives": ["ground turkey", "ground chicken"]
+    },
+    {
+      "id": 13,
+      "name": "salmon",
+      "category": "seafood",
+      "unit": "g",
+      "avgPrice": 0.02,
+      "shelfLife": 2,
+      "alternatives": ["tuna", "cod", "any white fish"]
+    },
+    {
+      "id": 14,
+      "name": "pasta",
+      "category": "grains",
+      "unit": "g",
+      "avgPrice": 0.002,
+      "shelfLife": 365,
+      "alternatives": ["rice", "quinoa", "noodles"]
+    },
+    {
+      "id": 15,
+      "name": "rice",
+      "category": "grains",
+      "unit": "g",
+      "avgPrice": 0.001,
+      "shelfLife": 730,
+      "alternatives": ["quinoa", "bulgur", "couscous"]
+    },
+    {
+      "id": 16,
+      "name": "bread",
+      "category": "grains",
+      "unit": "slice",
+      "avgPrice": 0.15,
+      "shelfLife": 7,
+      "alternatives": ["tortilla", "pita bread", "naan"]
+    },
+    {
+      "id": 17,
+      "name": "olive oil",
+      "category": "oils",
+      "unit": "ml",
+      "avgPrice": 0.008,
+      "shelfLife": 365,
+      "alternatives": ["vegetable oil", "canola oil", "coconut oil"]
+    },
+    {
+      "id": 18,
+      "name": "salt",
+      "category": "seasonings",
+      "unit": "g",
+      "avgPrice": 0.001,
+      "shelfLife": 1825,
+      "alternatives": ["sea salt", "kosher salt"]
+    },
+    {
+      "id": 19,
+      "name": "black pepper",
+      "category": "seasonings",
+      "unit": "g",
+      "avgPrice": 0.02,
+      "shelfLife": 1095,
+      "alternatives": ["white pepper", "cayenne pepper"]
+    },
+    {
+      "id": 20,
+      "name": "paprika",
+      "category": "seasonings",
+      "unit": "g",
+      "avgPrice": 0.015,
+      "shelfLife": 1095,
+      "alternatives": ["chili powder", "cumin"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "dairy",
+      "description": "Milk, cheese, eggs, and dairy products",
+      "storageTemp": "refrigerated"
+    },
+    {
+      "name": "vegetables",
+      "description": "Fresh vegetables and produce",
+      "storageTemp": "refrigerated"
+    },
+    {
+      "name": "meat",
+      "description": "Fresh meat and poultry",
+      "storageTemp": "refrigerated"
+    },
+    {
+      "name": "seafood",
+      "description": "Fresh fish and seafood",
+      "storageTemp": "refrigerated"
+    },
+    {
+      "name": "grains",
+      "description": "Rice, pasta, bread, and grain products",
+      "storageTemp": "pantry"
+    },
+    {
+      "name": "oils",
+      "description": "Cooking oils and fats",
+      "storageTemp": "pantry"
+    },
+    {
+      "name": "seasonings",
+      "description": "Herbs, spices, and seasonings",
+      "storageTemp": "pantry"
+    }
+  ]
+}
