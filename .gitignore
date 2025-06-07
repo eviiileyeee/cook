@@ -122,6 +122,4 @@ Desktop.ini
 tmp/
 temp/
 
-# Application specific
-uploads/
-public/uploads/
+
