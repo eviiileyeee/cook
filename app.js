@@ -16,7 +16,7 @@ const recipeRoutes = require('./routes/recipes');
 const groceryRoutes = require('./routes/groceryList');
 const cookingTipsRoutes = require('./routes/cookingTips');
 const youtubeRoutes = require('./routes/youtube');
-
+const imageRoutes = require('./routes/image');
 const app = express();
 
 // Security middleware
@@ -46,7 +46,7 @@ app.use('/api/recipes', recipeRoutes);
 app.use('/api/grocery-list', groceryRoutes);
 app.use('/api/cooking-tips', cookingTipsRoutes);
 app.use('/api/youtube-videos', youtubeRoutes);
-
+app.use('/api/image', imageRoutes);
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.status(200).json({

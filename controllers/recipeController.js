@@ -8,6 +8,7 @@ const { validateIngredients } = require('../utils/validators');
 const { createErrorResponse } = require('../utils/errorHandler');
 const logger = require('../utils/logger');
 
+
 class RecipeController {
   /**
    * Get recipes by ingredients using Gemini AI
