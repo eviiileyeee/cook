@@ -12,7 +12,7 @@ function imageToBase64(filePath) {
 
 async function extractIngredientsFromImage(imagePath) {
   const model = genAI.getGenerativeModel({
-    model: "models/gemini-1.5-flash-latest",
+    model: "gemini-2.5-flash",
   });
   logger.info("Extracting ingredients from image:", imagePath);
   const base64Image = imageToBase64(imagePath);
